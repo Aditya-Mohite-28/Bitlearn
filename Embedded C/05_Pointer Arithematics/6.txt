@@ -1,0 +1,10 @@
+int arr[5];
+int *p1 = &arr[1];
+int *p2 = &arr[3];
+int *p3 = p1 + p2; // Invalid operation
+
+
+This expresion of adding pointer is invalid because its logicaly incorrect to add to pointers.
+Lets say we add 2 pointers then that will point to a new address which is not valid for our Logic.
+
+If we compile the code compiler will throw error since in C its not allowed to add 2 pointers.
