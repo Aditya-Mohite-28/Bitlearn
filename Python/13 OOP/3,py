@@ -1,0 +1,9 @@
+class Vehicle:
+    def move(self):
+        print("Vehicle is moving")
+
+class Bus(Vehicle):
+    pass
+
+school_bus = Bus()
+school_bus.move()

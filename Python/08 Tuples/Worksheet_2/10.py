@@ -1,0 +1,6 @@
+t1 = (1, 2, 3)
+t2 = (2, 2, 2)
+and_res = tuple(x & y for x, y in zip(t1, t2))
+xor_res = tuple(x ^ y for x, y in zip(t1, t2))
+print("AND:", and_res)
+print("XOR:", xor_res)
